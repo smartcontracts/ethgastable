@@ -1,6 +1,6 @@
 # ethgastable
 
-Welcome! This repo hosts the front-end for ethgastable.info, a simplified table of EVM opcode/precompile prices.
+Welcome! This repo hosts the front-end for [ethgastable](https://ethgastable.info), a simplified table of EVM opcode/precompile prices.
 
 This project was inspired by Danny Ryan's table [here](https://github.com/djrtwo/evm-opcode-gas-costs). Most of the current data comes from that repo.
 
