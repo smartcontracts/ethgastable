@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url('../fonts/Inconsolata-Regular.ttf');
+}
+
+
+/* General */
+
+body {
+  font-family: 'Inconsolata', sans-serif;
+}
+
+
+/* Table */
+
+table {
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr {
+  border-bottom: 1px solid #999;
+}
