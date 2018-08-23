@@ -1,4 +1,4 @@
-Value,Mnemonic,Price,Description
+Value,Mnemonic,Price,Description,
 0x00,STOP,0,Halts execution.,
 0x01,ADD,3,Addition operation.,
 0x02,MUL,5,Multiplication operation.,
