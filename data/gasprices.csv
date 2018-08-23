@@ -82,13 +82,13 @@ Value,Mnemonic,Price,Description
 0xfe,INVALID,--,Designated invalid instruction.,
 0xff,SELFDESTRUCT,5000 + ((create_new_account) ? 25000 : 0),Halt execution and register account for later deletion.,
 --,GTX,21000,Base transaction gas cost.,
---,GTXDATAZERO,4,Cost per zero byte of calldata.
---,GTXDATANONZERO,68,Cost per non-zero byte of calldata.
---,SHA256BASE,60,Base cost of SHA256.
---,SHA3WORD,6,Cost of SHA3 per word.
---,SHA256WORD,12,Cost of SHA256 per word.
---,RIPEMD160BASE,600,Base cost of RIPEMD160.
---,RIPEMD160WORD,120,Cost of RIPEMD160 per word.
---,IDENTITYBASE,15,Base cost of identity.
---,IDENTITYWORD,3,Cost of identity per word.
---,ECRECOVER,3000,Cost of ecrecover op.
+--,GTXDATAZERO,4,Cost per zero byte of calldata.,
+--,GTXDATANONZERO,68,Cost per non-zero byte of calldata.,
+--,SHA256BASE,60,Base cost of SHA256.,
+--,SHA3WORD,6,Cost of SHA3 per word.,
+--,SHA256WORD,12,Cost of SHA256 per word.,
+--,RIPEMD160BASE,600,Base cost of RIPEMD160.,
+--,RIPEMD160WORD,120,Cost of RIPEMD160 per word.,
+--,IDENTITYBASE,15,Base cost of identity.,
+--,IDENTITYWORD,3,Cost of identity per word.,
+--,ECRECOVER,3000,Cost of ecrecover op.,
