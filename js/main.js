@@ -3,6 +3,10 @@ const populateTable = (data) => {
   let output = [];
   for (let i = 1; i < lines.length; i++) {
     let splitLine = lines[i].slice(0,-1).split(",");
+    if (typeof splitLine[0] === "undefined") {
+      continue;
+    }
+
     output.push(`
       <tr>
         <td>${splitLine[0]}</td>
